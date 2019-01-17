@@ -17,27 +17,66 @@ const removeExtension = (s) => {
 }
 
 const updateDateInPost = (s) => {
-  const pattern = /date: (\d{4}-\d{2}-\d{2}.+)/g;
+  const pattern = /date: (\d{4}-\d{2}-\d{2}.*)/g;
   const result = pattern.exec(s);
   if (result === null) { return null; }
   const d = new Date(result[1]);
   const isoString = d.toISOString();
-  return s.replace(pattern, isoString);
+  const replacement = `date: ${isoString}`;
+  return s.replace(pattern, replacement);
 }
+
+const getExtension = (s) => {
+  const pattern = /\.([a-z]+)$/;
+  const result = pattern.exec(s);
+  if (result === null) { return null; }
+  return result[1];
+}
+
+const handleMarkdown = (f) => {
+  const fullPath = `${octoFolderPath}/${f}`;
+  const postTitle = removeExtension(stripDateFromString(f));
+  const postText = fs.readFileSync(fullPath, 'utf8');
+  const updatedPostText = updateDateInPost(postText);
+  if (updatedPostText === null) {
+    console.log('couldnt update date in ', postTitle);
+    return; 
+  }
+  fs.mkdirSync(`${gatsbyFolderPath}/${postTitle}`);
+  const writeFilePath = `${gatsbyFolderPath}/${postTitle}/index.md`;
+  fs.writeFileSync(writeFilePath, updatedPostText);
+
+};
+
+const handleHtml = (f) => {
+  const fullPath = `${octoFolderPath}/${f}`;
+  const postTitle = removeExtension(stripDateFromString(f));
+  const postText = fs.readFileSync(fullPath, 'utf8');
+  const updatedPostText = updateDateInPost(postText);
+  if (updatedPostText === null) {
+    console.log('couldnt update date in ', postTitle);
+    return; 
+  }
+  fs.mkdirSync(`${gatsbyFolderPath}/${postTitle}`);
+  const writeFilePath = `${gatsbyFolderPath}/${postTitle}/index.html`;
+  fs.writeFileSync(writeFilePath, updatedPostText);
+};
 
 // get all the files in _posts
 const files = fs.readdirSync(octoFolderPath);
 files.forEach((f) => {
   if (f === '.DS_Store') { return; }
-  const fullPath = `${octoFolderPath}/${f}`;
-  console.log('reading:', fullPath);
-  const postText = fs.readFileSync(fullPath, 'utf8');
-  const updatedPostText = updateDateInPost(postText);
-  const postTitle = removeExtension(stripDateFromString(f));
-  fs.mkdirSync(`${gatsbyFolderPath}/${postTitle}`);
-  const writeFilePath = `${gatsbyFolderPath}/${postTitle}/index.md`;
-  fs.writeFileSync(writeFilePath, updatedPostText);
-  console.log('writing', writeFilePath);
+  // console.log('reading:', fullPath);
+  const ext = getExtension(f);
+  if (ext === 'markdown' || ext === 'md') {
+    handleMarkdown(f);
+  } else if (ext === 'html') {
+    handleHtml(f);
+  } else {
+    console.log('unknown filetype', f);
+  }
+
+  // console.log('writing', writeFilePath);
 
 });
 // strip the date from the filename
