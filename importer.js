@@ -12,6 +12,10 @@ const stripDateFromString = (s) => {
   return s.replace(pattern, '');
 };
 
+const removeExtension = (s) => {
+  return s.replace(/\.[a-z]+$/, '');
+}
+
 const updateDateInPost = (s) => {
   const pattern = /date: (\d{4}-\d{2}-\d{2}.+)/g;
   const result = pattern.exec(s);
@@ -26,13 +30,15 @@ const files = fs.readdirSync(octoFolderPath);
 files.forEach((f) => {
   if (f === '.DS_Store') { return; }
   const fullPath = `${octoFolderPath}/${f}`;
-  console.log(fullPath);
+  console.log('reading:', fullPath);
   const postText = fs.readFileSync(fullPath, 'utf8');
   const updatedPostText = updateDateInPost(postText);
-  const postTitle = stripDateFromString(f);
+  const postTitle = removeExtension(stripDateFromString(f));
   fs.mkdirSync(`${gatsbyFolderPath}/${postTitle}`);
   const writeFilePath = `${gatsbyFolderPath}/${postTitle}/index.md`;
   fs.writeFileSync(writeFilePath, updatedPostText);
+  console.log('writing', writeFilePath);
+
 });
 // strip the date from the filename
 // open the file, parse the date format that looks like this:
