@@ -24,12 +24,14 @@ const updateDateInPost = (s) => {
 // get all the files in _posts
 const files = fs.readdirSync(octoFolderPath);
 files.forEach((f) => {
+  if (f === '.DS_Store') { return; }
   const fullPath = `${octoFolderPath}/${f}`;
-  const postText = fs.readFileSync(fullPath);
+  console.log(fullPath);
+  const postText = fs.readFileSync(fullPath, 'utf8');
   const updatedPostText = updateDateInPost(postText);
   const postTitle = stripDateFromString(f);
-  fs.mkdirSync(`${octoFolderPath}/${postTitle}`);
-  const writeFilePath = `${octoFolderPath}/${postTitle}/index.md`;
+  fs.mkdirSync(`${gatsbyFolderPath}/${postTitle}`);
+  const writeFilePath = `${gatsbyFolderPath}/${postTitle}/index.md`;
   fs.writeFileSync(writeFilePath, updatedPostText);
 });
 // strip the date from the filename
