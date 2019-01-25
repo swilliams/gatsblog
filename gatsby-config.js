@@ -59,7 +59,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `words of swilliams`,
-        short_name: `GatsbyJS`,
+        short_name: `swilliams`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
