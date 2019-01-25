@@ -7,6 +7,7 @@ const rimraf = require('rimraf');
 
 const octoFolderPath = '/Users/swilliams/blog/source/_posts';
 const gatsbyFolderPath = './content/blog';
+const imageRootPath = '/Users/swilliams/blog/source';
 
 const getDateComponents = (s) => {
   const pattern = /^(\d{4}-\d{2}-\d{2})/;
@@ -56,20 +57,38 @@ const makeDir = (title, dateComponents) => {
   return p;
 };
 
+const importImages = (imageRefs, postText, destFolder) => {
+  // dest reference is './image.jpg'
+  let updatedText = postText;
+  imageRefs.forEach((img) => {
+    const fullPathSrc = path.join(imageRootPath, img);
+    const filename = path.basename(fullPathSrc);
+    const fullPathDest = path.join(destFolder, filename);
+    fs.copyFileSync(fullPathSrc, fullPathDest);
+    // update postText
+    updatedText = updatedText.replace(img, `./${filename}`);
+  }); 
+  return updatedText;
+}
+
 const handleMarkdown = (f) => {
   const fullPath = path.join(octoFolderPath, f);
   const dateComponents = getDateComponents(f);
   const postTitle = removeExtension(stripDateFromString(f));
   const postText = fs.readFileSync(fullPath, 'utf8');
-  const updatedPostText = updateDateInPost(postText);
+  let updatedPostText = updateDateInPost(postText);
   if (updatedPostText === null) {
     console.log('couldnt update date in ', postTitle);
     return; 
   }
   const folderPath = makeDir(postTitle, dateComponents);
+  // if there are images to import, do so and update the post text to use a new URL
+  const imageRefs = getLinkedImages(updatedPostText);
+  if (imageRefs) {
+    updatedPostText = importImages(imageRefs, updatedPostText, folderPath);
+  }
   const writeFilePath = path.join(folderPath, 'index.md');
   fs.writeFileSync(writeFilePath, updatedPostText);
-
 };
 
 const handleHtml = (f) => {
@@ -77,12 +96,17 @@ const handleHtml = (f) => {
   const dateComponents = getDateComponents(f);
   const postTitle = removeExtension(stripDateFromString(f));
   const postText = fs.readFileSync(fullPath, 'utf8');
-  const updatedPostText = updateDateInPost(postText);
+  let updatedPostText = updateDateInPost(postText);
   if (updatedPostText === null) {
     console.log('couldnt update date in ', postTitle);
     return; 
   }
   const folderPath = makeDir(postTitle, dateComponents);
+  // if there are images to import, do so and update the post text to use a new URL
+  const imageRefs = getLinkedImages(updatedPostText);
+  if (imageRefs) {
+    updatedPostText = importImages(imageRefs, updatedPostText, folderPath);
+  }
   const writeFilePath = path.join(folderPath, 'index.html');
   fs.writeFileSync(writeFilePath, updatedPostText);
 };
@@ -107,6 +131,22 @@ const importPosts = () => {
 
 };
 
+
+const getLinkedImages = (postText) => {
+// /images/assets/password-wtf.png (or jpg)
+
+// find images referenced in posts matching the above pattern.
+// find the image on the file system. 
+// move it to the post's folder
+// update the post to use the new reference
+
+  const pattern = /\/images\/assets\/([^"']+\.[jpg|png|gif]{3})/g;
+  const results = postText.match(pattern);
+  if (!results || results.length === 0) { return null; }
+  return results.slice();
+};
+
+
 const ensureFolderExists = (p) => {
   if (!fs.existsSync(p)) {
     fs.mkdirSync(p);
@@ -125,7 +165,8 @@ const removeGatsbyPosts = () => {
 
 const run = () => {
   removeGatsbyPosts();
-  // importPosts();
+  importPosts();
+  // importImages();
 }
 
 run();

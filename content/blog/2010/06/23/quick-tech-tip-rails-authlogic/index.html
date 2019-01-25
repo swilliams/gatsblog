@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Quick Tech Tip - Rails & Authlogic"
+date: 2010-06-23T00:00:00.000Z
+comments: false
+author: Scott Williams
+categories: []
+---
+<div><div><div><div><div>
+<p>I was following along with the <a href="http://github.com/binarylogic/authlogic_example">example project</a> for getting AuthLogic setup on a Rails app, and almost immediately got this error when running <span>UserSession.find</span>: </p>
+<p></p>
+<div>
+<blockquote class="posterous_short_quote">Couldn't find User Session without an ID</blockquote>
+</div>
+<div>After poking around a little bit, I realized that I accidentally set the UserSession model to inherit from the default <span>ActiveRecord::Base</span> rather than <span><span>Authlogic::Session::Base</span></span><span>.</span>
+</div>
+<p></p>
+<div><span><span>Changing it to use the proper base class fixed the problem.</span></span></div>
+<div>
+<span>
+</span><div>
+<span><span><em><span><span><br></span></span></em></span></span><span> </span>
+</div>
+</div>
+</div></div></div></div></div>
