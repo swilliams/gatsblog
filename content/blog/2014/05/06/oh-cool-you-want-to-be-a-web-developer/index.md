@@ -32,4 +32,4 @@ Just go and learn any or all of these:
 
 This list is not exhaustive. Some of those are optional. By the time you are done reading this, another framework or library will have been created.
 
-This is a [frustration](http://blog.swilliams.me/words/2013/12/02/the-frustrations-of-the-journeyman/) that I feel with web development these days. I spent about 2 years learning [one](http://documentcloud.github.io/backbone/) client-side framework inside and out, but it's already losing relevance. Angular seems to be a good choice for employment these days, but if I go deep in it, will history repeat itself?
+This is a [frustration](http://blog.swilliams.me/2013/12/02/the-frustrations-of-the-journeyman/) that I feel with web development these days. I spent about 2 years learning [one](http://documentcloud.github.io/backbone/) client-side framework inside and out, but it's already losing relevance. Angular seems to be a good choice for employment these days, but if I go deep in it, will history repeat itself?

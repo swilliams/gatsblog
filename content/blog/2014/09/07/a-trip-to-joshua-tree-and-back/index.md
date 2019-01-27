@@ -114,7 +114,7 @@ I finally found what I was looking for. *[ed. [Argh!](https://www.youtube.com/wa
 ### Coming Home
 <figure>
     <img alt="My Scion" src="http://swilliams.me/static/photos/joshua-tree/800_1545.jpg">
-    <figcaption>We drove <a href="http://blog.swilliams.me/words/2013/04/20/in-which-i-purchased-a-new-car/">my car</a> The way out of the park back down to I-10 was filled corners and S-curves. Needless to say, I loved it.</figcaption>
+    <figcaption>We drove <a href="http://blog.swilliams.me/2013/04/20/in-which-i-purchased-a-new-car/">my car</a> The way out of the park back down to I-10 was filled corners and S-curves. Needless to say, I loved it.</figcaption>
 </figure>
 
 Oh, and if you like these, did you know that I have a [photoblog](http://swilliamsphoto.com)? You should follow it.

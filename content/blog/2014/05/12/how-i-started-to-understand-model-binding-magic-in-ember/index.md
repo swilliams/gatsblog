@@ -5,7 +5,7 @@ date: 2014-05-12T20:16:18.000Z
 comments: false
 categories: code
 ---
-I'm learning [Ember.js](http://emberjs.com/) in efforts to stay [reasonably up to date](http://blog.swilliams.me/words/2014/01/20/keep-your-developer-saw-sharp/) with client side web technologies. [This hasn't been the easiest going.](http://blog.swilliams.me/words/2014/05/06/oh-cool-you-want-to-be-a-web-developer/)
+I'm learning [Ember.js](http://emberjs.com/) in efforts to stay [reasonably up to date](http://blog.swilliams.me/2014/01/20/keep-your-developer-saw-sharp/) with client side web technologies. [This hasn't been the easiest going.](http://blog.swilliams.me/2014/05/06/oh-cool-you-want-to-be-a-web-developer/)
 
 Ember's best feature is that it easily binds values in HTML to their corresponding properties on objects. I've found the implementations of this a little confusing sometimes. Going through the Getting Started guide has been helpful, though [this part tripped](http://emberjs.com/guides/getting-started/displaying-the-number-of-incomplete-todos/) me up for a good hour, specifically this snippet: 
 

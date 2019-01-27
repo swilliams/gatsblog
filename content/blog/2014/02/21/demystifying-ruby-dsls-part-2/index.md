@@ -6,7 +6,7 @@ comments: false
 author: Scott Williams
 categories: [ruby,code]
 ---
-[Last time we learned about how to use modules to dynamically add functionality to a class](/words/2014/01/26/demystifying-ruby-dsls). This time let's take a look at doing that, but customizing our extensions at runtime. 
+[Last time we learned about how to use modules to dynamically add functionality to a class](/2014/01/26/demystifying-ruby-dsls). This time let's take a look at doing that, but customizing our extensions at runtime. 
 
 What helped me ultimately understand how these things work is that you are building up classes on the fly. It's kind of like when you `include` a module, it's editing that class to add more methods to it. Think of a bunch of Legos. Each Lego is a module with various methods on it. At runtime they assemble together to build a castle.
 

@@ -8,7 +8,7 @@ categories: swift, programming
 
 Managing memory has become easier. Things like [ARC](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html) take away much of  what was once a painful and bug-ridden task. Things are not always panacea of course; it is still far too possible to do the wrong thing and access memory you are not supposed to and receive the dreaded `EXC_BAD_ACCESS` error. 
 
-Today I was working on a project in Swift. And despite my [appreciation]() of the language, the tooling still remains... *suspect*. I have covered that topic a [couple](http://blog.swilliams.me/words/2015/01/21/the-madness-of-errors-in-swift/) of [times](http://blog.swilliams.me/words/2014/10/30/dealing-with-xcode-and-swift/) before.
+Today I was working on a project in Swift. And despite my [appreciation]() of the language, the tooling still remains... *suspect*. I have covered that topic a [couple](http://blog.swilliams.me/2015/01/21/the-madness-of-errors-in-swift/) of [times](http://blog.swilliams.me/2014/10/30/dealing-with-xcode-and-swift/) before.
 
 Sometimes it's obvious where the problem is based on the call-stack. This time it was not so obvious. The problem occurred at the end of a series of steps in a wizard when all the prior screens were finally being released from memory. From what I could tell the error was when one of the view controllers that represented one of the steps in the wizard was being deinitialized, but otherwise I couldn't immediately see where the problem was.
 

@@ -6,7 +6,7 @@ comments: false
 author: Scott Williams
 categories: []
 ---
-In [Part 1](/words/2014/01/09/my-computers-through-the-ages) I talked about my first few computers. They were an important part of my childhood, and shaped the person I would become and the career I chose. When I went to college I started to build and upgrade my own PCs. Things went well enough at first, but then got a little out of hand.
+In [Part 1](/2014/01/09/my-computers-through-the-ages) I talked about my first few computers. They were an important part of my childhood, and shaped the person I would become and the career I chose. When I went to college I started to build and upgrade my own PCs. Things went well enough at first, but then got a little out of hand.
 
 ###Dark Ages
 

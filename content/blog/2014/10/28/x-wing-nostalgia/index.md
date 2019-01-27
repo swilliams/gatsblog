@@ -12,7 +12,7 @@ categories: nostalgia, star-wars
 
 X-Wing was one of my favorite games when I was a kid. 
 
-I played it on my [family's rather old 386](http://blog.swilliams.me/words/2014/01/09/my-computers-through-the-ages/). It didn't have a CD-ROM drive, and didn't really have a "gaming" sound card, which meant the sounds were primarily bleeps and bloops. <a href="http://en.wikipedia.org/wiki/Doom_(1993_video_game)">Doom</a> ran if you shrank the screen size down to postage stamp dimensions. I was able to reduce the graphics quality of X-Wing enough to make it playable.
+I played it on my [family's rather old 386](http://blog.swilliams.me/2014/01/09/my-computers-through-the-ages/). It didn't have a CD-ROM drive, and didn't really have a "gaming" sound card, which meant the sounds were primarily bleeps and bloops. <a href="http://en.wikipedia.org/wiki/Doom_(1993_video_game)">Doom</a> ran if you shrank the screen size down to postage stamp dimensions. I was able to reduce the graphics quality of X-Wing enough to make it playable.
 
 And play it I did. I didn't have a joystick, but managed to get along well enough with the mouse<sup>1</sup>. At one point I decided that I would kill every single enemy in the game that was killable. This meant hanging around after missions ended to attack the additional TIE Fighters/Bombers/Interceptors they would send after you to "encourage" you to wrap it up. It also meant attacking the [Frigates](http://starwars.wikia.com/wiki/EF76_Nebulon-B_escort_frigate) and [Star Destroyers](http://starwars.wikia.com/wiki/Star_Destroyer), usually by myself. I managed to pull it off in the first campaign but gave up shortly after that. 
 

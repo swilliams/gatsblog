@@ -8,7 +8,7 @@ categories: []
 ---
 <img alt="king.jpg" src="./king.jpg">
 
-The job market is red hot for software developers right now. Last time I was looking for a job, I made the mistake of putting my resume on CareerBuilder. I ended up having to fend recruiters off with a <a href="/words/havent-heard-back-yet">pointy stick</a>. The problem was that 100% of the jobs they were throwing at me were awful. I ended up going with a reference from a prior colleague.
+The job market is red hot for software developers right now. Last time I was looking for a job, I made the mistake of putting my resume on CareerBuilder. I ended up having to fend recruiters off with a <a href="/2011/08/17/havent-heard-back-yet">pointy stick</a>. The problem was that 100% of the jobs they were throwing at me were awful. I ended up going with a reference from a prior colleague.
 
 It's easy to get a job, but I want a place that I can stay at long term. I'm not necessarily looking for an employer that has all sorts of "perks" either. Ping-pong, video games, masseuses, free food, and go-karts are neat and all, but feel a bit like coddling to me. It tends to hide the teeth used to induce all kinds of ills too.
 

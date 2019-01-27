@@ -10,7 +10,7 @@ Squarespace is a popular service to host a website or blog. You might have seen 
 
 Why? Well, for starters, it's slow to use. I think it's a byproduct of the way they organized their [single-page application](http://en.wikipedia.org/wiki/Single-page_application) architecture. I find myself having to wait for things to open in modal windows, or to load another menu. 
 
-The layout tools are bad. If all you do is write text and link to stuff, this doesn't matter. Sometimes I like to have [in depth coding posts](/words/2014/01/26/demystifying-ruby-dsls) that have multiple blocks of code within them. This is incredibly painful to do with the Squarespace layout tools. Here's the process:
+The layout tools are bad. If all you do is write text and link to stuff, this doesn't matter. Sometimes I like to have [in depth coding posts](/2014/01/26/demystifying-ruby-dsls) that have multiple blocks of code within them. This is incredibly painful to do with the Squarespace layout tools. Here's the process:
 
  1. Hover over an existing text block.
  2. Click the appropriate "+" button.

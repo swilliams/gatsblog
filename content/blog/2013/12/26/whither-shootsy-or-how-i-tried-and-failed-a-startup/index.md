@@ -26,7 +26,7 @@ The part that really stings though? How close we were. We had a few people beta 
 
 Despite the whole thing, I don't regret trying. I learned some important things about myself in process. I don't know if I'm cut out to run an entire business. I'm a pretty good second banana, but I can't say with 100% certainty that it's a good idea to have the buck stop with me. That's a hard pill to swallow, and maybe it will change after a few more years, but it's a reality I have to accept.
 
-I don't know if I'll attempt a startup again. <a href="/words/2013/12/16/i-made-an-app">An app</a> is easier. But an app is not a business. An app can be just for fun, which is kind of what <a href="https://itunes.apple.com/us/app/zartbonk/id727445952?ls=1&amp;mt=8">Zartbonk</a> is.
+I don't know if I'll attempt a startup again. <a href="/2013/12/16/i-made-an-app">An app</a> is easier. But an app is not a business. An app can be just for fun, which is kind of what <a href="https://itunes.apple.com/us/app/zartbonk/id727445952?ls=1&amp;mt=8">Zartbonk</a> is.
 
 <a href="https://twitter.com/danbenjamin">Dan Benjamin</a> once said that you can't create a business as a side project. At the time, I thought I would be able to prove him wrong. Now though, he's absolutely right. I plan to make more apps in the future, but I don't think any of them will become my day job any time soon.
         

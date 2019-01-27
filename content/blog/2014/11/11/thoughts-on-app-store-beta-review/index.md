@@ -7,7 +7,7 @@ categories: apps
 ---
 A little while ago Apple [acquired the parent company](http://techcrunch.com/2014/02/21/rumor-testflight-owner-burstly-is-being-acquired-by-apple/) of [TestFlight](http://testflightapp.com/) and began integrating its beta testing services into the iOS development ecosystem for iOS 8. Whenever there's a change to iOS there are always "gotchas"  and this was no exception: every app submitted as a beta still has to go through review.
 
-This has been an ongoing topic on the [Upgrade podcast](http://www.relay.fm/upgrade). I recently submitted an update for [Emergency Contacts](http://blog.swilliams.me/words/2014/11/06/app-number-2-emergency-contacts/) and decided to finally check this out myself. It took about 24 hours for the beta to be approved. I voiced my concern of this to the hosts:
+This has been an ongoing topic on the [Upgrade podcast](http://www.relay.fm/upgrade). I recently submitted an update for [Emergency Contacts](http://blog.swilliams.me/2014/11/06/app-number-2-emergency-contacts/) and decided to finally check this out myself. It took about 24 hours for the beta to be approved. I voiced my concern of this to the hosts:
 
 <blockquote class="twitter-tweet" lang="en"><p>.<a href="https://twitter.com/jsnell">@jsnell</a> <a href="https://twitter.com/imyke">@imyke</a> Took about 24 hours from time of uploading a build to it passing review for a TestFlight beta. Much too long in my opinion.</p>&mdash; Scott Williams (@swilliams) <a href="https://twitter.com/swilliams/status/530898595550339073">November 8, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

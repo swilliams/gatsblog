@@ -5,7 +5,7 @@ date: 2018-11-30T17:33:40.000Z
 comments: false
 categories: interviews, management
 ---
-Here’s another interview question you’ll face: “What is something that you’ve struggled with and what have you done to fix it?” I view this differently from [“What have you failed at?”](/words/2018/11/18/failure-and-ultimately-fixing-it/) Because to me this is more of a behavior than a single point in history. 
+Here’s another interview question you’ll face: “What is something that you’ve struggled with and what have you done to fix it?” I view this differently from [“What have you failed at?”](/2018/11/18/failure-and-ultimately-fixing-it/) Because to me this is more of a behavior than a single point in history. 
 
 I struggle with being organized. In my youth, I had a very good memory and could keep a ton of things in my head. This helped out quite a bit in school, but it also allowed me to develop some pretty bad habits: Namely, I never developed a way to keep my crap together. I still have an excellent memory for certain things that don’t matter at all. If you need a Star Wars or a Star Trek reference? I’m your guy. But God help me if you’re depending on me to remember to take the trash out before bed.
 

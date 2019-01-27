@@ -5,7 +5,7 @@ date: 2018-12-11T18:11:51.000Z
 comments: false
 categories: management, hiring, recruiting
 ---
-[Trust is a recurring theme](/words/2018/11/01/building-trust-on-teams/) in my management style and I try to start building it before I’ve hired people. Trust is formed when one side of a relationship opens themselves up in a way that makes them a little more vulnerable. Since it is uncommon for the hiring side to initiate this, I’ve tried going against that grain. It’s a fine line to walk. Paint the wrong picture in the name of “transparency” and people will flee. But do take a long look and be honest in the reality of your company and team. Nothing is perfect, but nobody is looking for perfection, so don’t paint it that way. 
+[Trust is a recurring theme](/2018/11/01/building-trust-on-teams/) in my management style and I try to start building it before I’ve hired people. Trust is formed when one side of a relationship opens themselves up in a way that makes them a little more vulnerable. Since it is uncommon for the hiring side to initiate this, I’ve tried going against that grain. It’s a fine line to walk. Paint the wrong picture in the name of “transparency” and people will flee. But do take a long look and be honest in the reality of your company and team. Nothing is perfect, but nobody is looking for perfection, so don’t paint it that way. 
 
 For a few years I kept a running document I called "The Good, The Bad, and The Middle" which detailed the great parts of my employer, the not-so-great parts, and the stuff that was a bit of a mix. I didn’t send it out until we were approaching the end of the hiring process and had established a rapport with the candidate. Trust also can’t be developed if you don’t know a few things about each other first.
 

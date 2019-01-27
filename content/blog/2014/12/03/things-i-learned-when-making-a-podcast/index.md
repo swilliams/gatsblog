@@ -11,7 +11,7 @@ If you want to do a [double-ender](http://thepodcastersstudio.com/tps-ep-47-reco
 
 Have each person say something like "Recording" when they start recording their end of the call. This makes it orders of magnitude easier to line up the separate audio tracks during post production. <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>
 
-Plug your headphones directly into your microphone. Doing something else will likely lead to some nasty [headphone bleed](http://blog.swilliams.me/words/2014/12/02/how-to-add-a-noise-gate-in-garageband-10/).
+Plug your headphones directly into your microphone. Doing something else will likely lead to some nasty [headphone bleed](http://blog.swilliams.me/2014/12/02/how-to-add-a-noise-gate-in-garageband-10/).
 
 If you're using a [Blue Yeti](http://www.amazon.com/Blue-Microphones-Yeti-USB-Microphone/dp/B002VA464S/ref=sr_1_1?sr=8-1&ie=UTF8&keywords=blue%2Byeti&tag=thepetzoo-20&qid=1417634348), switch to Cardioid mode. It's the "heart" or "pacman" symbol. Turn the gain down on it too.
 

@@ -5,7 +5,7 @@ date: 2014-10-30T17:46:09.000Z
 comments: true
 categories: code xcode
 ---
-[I like Swift](http://blog.swilliams.me/words/2014/09/10/thoughts-on-swift/). But Xcode's support of Swift is... lacking (to be polite). 
+[I like Swift](http://blog.swilliams.me/2014/09/10/thoughts-on-swift/). But Xcode's support of Swift is... lacking (to be polite). 
 
 My biggest woe is that code completion up and vanishes in projects. This is especially problematic when dealing with Cocoa libraries because method names tend to be verbose and descriptive. I find myself thinking "I know it's called [popToRoot-something-somthing](https://developer.apple.com/library/ios/DOCUMENTATION/UIKit/Reference/UINavigationController_Class/index.html#//apple_ref/occ/instm/UINavigationController/popToRootViewControllerAnimated:) and was it on UIViewController or the navigationController?". What would've taken two seconds of poking through code-completion to figure that out turned into a solid minute of searching documentation. Multiply this every time you can't explicitly remember every part of a method call (and spell it correctly) and tasks that normally take an hour are now a significant part of a day. 
 
