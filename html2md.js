@@ -16,7 +16,7 @@ async function getFiles(dir) {
 
 const convertFile = (filePath) => {
   const filename = path.basename(filePath);
-  const destName = `${filename}.md`;
+  const destName = path.join(path.dirname(filePath), `${filename}.md`);
   let postText = fs.readFileSync(filePath, 'utf8');
   // remove <div>, </div>, <p>, </p>
   postText = postText.replace('<div>', '\n');
@@ -33,6 +33,7 @@ getFiles(dir)
     // console.log(files)
     files.forEach((f) => {
       if (path.extname(f) === '.html') {
+        // console.log(f);
         convertFile(f);
       }
     });
