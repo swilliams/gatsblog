@@ -6,10 +6,15 @@ Wordpress2016.overrideThemeStyles = () => {
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
     },
+    'h1': {
+      fontFamily: ['Roboto Slab', 'serif'].join(),
+    }
   }
 }
 
 delete Wordpress2016.googleFonts
+Wordpress2016.headerFontFamily = ['Roboto Slab', 'Georgia', 'serif'];
+Wordpress2016.bodyFontFamily = ['Open Sans', 'Georgia', 'serif'];
 
 const typography = new Typography(Wordpress2016)
 

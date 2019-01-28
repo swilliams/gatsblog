@@ -1,0 +1,18 @@
+---
+layout: post
+title: "I Want to Learn How to Program"
+date: 2010-06-10T00:00:00.000Z
+comments: false
+author: Scott Williams
+categories: []
+---
+Had someone recently ask me what path I would recommend for someone wanting to pick up "programming." I narrowed the scope down to writing <b>web applications</b>, and this is what I came up with.
+
+<ol>
+<li>Learn HTML &amp; CSS first. There are a million and a half free resources out there to do this. I have preferred <a href="http://www.htmldog.com/">HtmlDog.com</a> as a reference recently. If you want to get a leg up on the future with HTML 5, check out <a href="http://diveintohtml5.org/">Dive Into HTML 5</a> and perhaps consider the upcoming <a href="http://books.alistapart.com/product/html5-for-web-designers">HTML 5 for Web Designers</a> book.</li> <li>Learn the basics of JavaScript. JavaScript would be your first "real" programming language here. The problem is that there are a lot of <i>really bad</i> ways to learn JavaScript. Many online tutorials are ancient, and teach bad habits. You might consider starting at <a href="https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide">Mozilla's guide</a>, or maybe <a href="http://www.amazon.com/exec/obidos/ASIN/0596517742/wrrrldwideweb">Douglas Crockford's book</a>. The key here is to just learn some of the syntax basics, so that you can then:</li> <li>Learn a modern JavaScript library. For the sake of argument pick <a href="http://jquery.com/">jQuery</a> or <a href="http://www.prototypejs.org/">Prototype</a>. These libraries make web development much easier. One thing that jQuery has going for it, is that it is far more googleable than Prototype. The word 'prototype' has special meaning in JavaScript, and therefore any searching you do with 'prototype' in the search box will be polluted with bad results. </li> <li>Learn a backend programming language/framework. Ask yourself this question: do I want a job at a big corporation that is safe, but perhaps dull, or a smaller and more volatile, but cooler and more application driven environment? If you want the big job, pick up .NET or Java. Out of either of those, I highly recommend <a href="http://ASP.NET">ASP.NET</a> MVC as a framework, although it has been slow to adopt amongst the big .NET based firms. For the leading edge of app development, I'd recommend either <a href="http://rubyonrails.org/">Ruby On Rails</a> or <a href="http://www.djangoproject.com/">Django</a>. Neither of which will likely get you a job with health insurance and a 401(k), but they are favored by startups, and tend to be the source for leading edge web application and design.</li> </ol>
+
+From that last category, I'd recommend Rails. It is a very mature product, and there is an extremely vibrant community of developers around it and helping it grow. Additionally, the documentation is excellent and easy for someone to pick up.
+
+PHP is also favored amongst newer programmers, but my recommendation is to stay away from it. It is easy to pick up, but in my opinion the ceiling is just too low in terms of what you can do with that skillset. The majority of big company jobs stay away from it, and the majority of startup and smaller companies have flocked to Rails or similar frameworks.
+
+Obviously, this is <b>not</b> the only way to go, and if you truly want to learn software development there are several dozen more steps that you would need to take. This is just a high level view for someone interested in web development.

@@ -30,8 +30,9 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
-    "typeface-merriweather": "0.0.43",
-    "typeface-montserrat": "0.0.43",
+    "rimraf": "^2.6.3",
+    "typeface-open-sans": "0.0.54",
+    "typeface-roboto-slab": "0.0.54",
     "typography": "^0.16.17",
     "typography-theme-wordpress-2016": "^0.15.10"
   },
