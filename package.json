@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "gatsblog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "The latest iteration of the swilliams blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Scott Williams <scott@swilliams.me>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/swilliams/gatsblog/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -17,6 +17,7 @@
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sharp": "^2.0.6",
     "gatsby-plugin-typography": "^2.2.0",
+    "gatsby-remark-autolink-headers": "^2.0.12",
     "gatsby-remark-copy-linked-files": "^2.0.5",
     "gatsby-remark-images": "^2.0.4",
     "gatsby-remark-prismjs": "^3.0.0",
@@ -42,7 +43,7 @@
     "gh-pages": "^2.0.1",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/swilliams/gatsblog",
   "keywords": [
     "gatsby"
   ],
